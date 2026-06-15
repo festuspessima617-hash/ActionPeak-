@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit a safe and confidential report of gender-based violence to ActionPeak.">
+    <title>Report a Case | ActionPeak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="brand">ActionPeak</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-controls="navLinks" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark theme">🌙</button>
+        <nav class="nav" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="awareness.html">Awareness</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="report.html" aria-current="page">Report</a>
+            <a href="contact.html">Contact</a>
+            <a href="emergency.html">Emergency</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-banner">
+        <div class="container">
+            <span class="eyebrow">Report a case</span>
+            <h1>Submit details safely and confidentially.</h1>
+            <p>We treat every report with care. Your information helps us act quickly and responsibly.</p>
+        </div>
+    </section>
+
+    <section class="form-section container">
+        <p class="form-intro">Please provide the location and details you can share. All submissions are handled with discretion.</p>
+        <form id="reportForm">
+            <input type="text" id="name" placeholder="Your Name (Optional)">
+            <input type="text" id="location" placeholder="Location" required>
+            <textarea id="message" placeholder="Describe the incident" required></textarea>
+            <button type="button" class="btn btn-secondary" id="shareLocationBtn" style="width: 100%; margin-bottom: 1rem;">📍 Share My Location via Google Maps</button>
+            <button type="submit" class="btn" style="width: 100%;">Submit Report</button>
+            <p id="successMessage" class="form-feedback"></p>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© 2026 ActionPeak. All rights reserved.</p>
+        <p>Your safety and privacy are our priority.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<button class="back-to-top" id="backToTop" aria-label="Scroll back to top">↑</button>
+</body>
+</html>
