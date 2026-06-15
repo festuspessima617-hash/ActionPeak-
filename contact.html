@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact ActionPeak for support, partnership, or community resources.">
+    <title>Contact | ActionPeak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="brand">ActionPeak</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-controls="navLinks" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark theme">🌙</button>
+        <nav class="nav" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="awareness.html">Awareness</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="report.html">Report</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+            <a href="emergency.html">Emergency</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-banner">
+        <div class="container">
+            <span class="eyebrow">Contact</span>
+            <h1>We are here to listen and respond.</h1>
+            <p>Use this form to share a message, request information, or get connected with our support team.</p>
+        </div>
+    </section>
+
+    <section class="form-section container">
+        <p class="form-intro">Whether you need support or want to partner with us, your message matters.</p>
+        <form id="contactForm">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="contactMessage" class="form-feedback"></p>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© 2026 ActionPeak. All rights reserved.</p>
+        <p>Support and information for every device.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<button class="back-to-top" id="backToTop" aria-label="Scroll back to top">↑</button>
+</body>
+</html>
