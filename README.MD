@@ -11,9 +11,14 @@ A responsive awareness and reporting platform focused on ending gender-based vio
 - Mobile Navigation
 
 ## Technologies Used
+Developing tools
 - HTML
 - CSS
 - JavaScript
+Deploying tools
+- github
+- firebase
+- render
 
 
 
