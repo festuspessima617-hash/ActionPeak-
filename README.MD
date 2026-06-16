@@ -20,5 +20,8 @@ Developing tools
 - firebase
 - render
 
-
+## Developers
+- Festus Pessima 905005214
+- Ransford Kamara 905004076
+- Ishmail Kai Turay 905004087
 
