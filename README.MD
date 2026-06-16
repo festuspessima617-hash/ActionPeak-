@@ -15,7 +15,7 @@ Developing tools
 - HTML
 - CSS
 - JavaScript
-Deploying tools
+## Deploying tools
 - github
 - firebase
 - render
